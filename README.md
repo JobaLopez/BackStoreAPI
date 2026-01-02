@@ -114,3 +114,6 @@ De forma similar, para crear un nuevo usuario, la estructura que espera la API e
 }
 ```
 
+## URL de la API en producción
+
+La API de la tienda está desplegada en Render y es accesible públicamente en la siguiente URL: https://backstoreapi.onrender.com/
