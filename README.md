@@ -12,9 +12,11 @@ Es muy fácil. Para lanzar todas las pruebas, solo tienes que abrir la terminal 
 
 ```bash
 npm test
+```
+Otra opción es:
+```bash
 npm run test
 ```
-
 Este comando buscará y ejecutará automáticamente todos los archivos de prueba que están en la carpeta `__tests__`.
 
 ### ¿Qué prueba cada archivo?
