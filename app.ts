@@ -10,7 +10,8 @@ dotenv.config();
 const app = express();
 
 app.use(cors( {
-    origin: ['https://fake-store-api-front.vercel.app', 'http://localhost:3000']
+    origin: ['https://fake-store-api-front.vercel.app', 'http://localhost:3000'],
+    credentials: false
   }));
 app.use(express.json());
 
